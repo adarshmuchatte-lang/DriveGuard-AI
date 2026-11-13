@@ -1,0 +1,1 @@
+All custom README illustrations are stored locally in this folder. Keep the assets/ folder alongside README.md when uploading to GitHub. SVG files include animated effects and do not rely on external image hosts. The shields.io badges in README are optional external badges. Replace YOUR_USERNAME in README.md before publishing.

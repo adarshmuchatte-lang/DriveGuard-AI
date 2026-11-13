@@ -1,30 +1,15 @@
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                 DRIVEGUARD AI — README                       -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
+[DriveGuard-AI-README.md](https://github.com/user-attachments/files/34818068/DriveGuard-AI-README.md)
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:050816,40:082F49,75:164E63,100:7C3AED&text=DRIVEGUARD%20AI&fontColor=67E8F9&fontSize=52&fontAlignY=38&desc=INTELLIGENT%20DRIVER%20SAFETY%20%2F%20RISK%20INTELLIGENCE&descAlignY=58&descSize=13&animation=fadeIn" width="100%" alt="DriveGuard AI animated cyber banner"/>
+<img src="assets/banner.svg" width="100%" alt="DriveGuard AI — animated cyber banner"/>
 
-<br/>
+<img src="assets/typing.svg" width="100%" alt="Detect, analyze, protect animated title"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=650&lines=Detect.+Analyze.+Protect.;AI-powered+driver+safety+intelligence.;Turning+driving+signals+into+actionable+insights.;Building+the+future+of+road+safety." alt="Animated typing introduction"/>
+![Status](https://img.shields.io/badge/STATUS-IN_DEVELOPMENT-F59E0B?style=for-the-badge) ![React](https://img.shields.io/badge/React-UI-61DAFB?style=for-the-badge&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-TYPE_SAFE-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-FAST_DEV-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-<br/><br/>
+**An intelligent driver-safety dashboard exploring driver-state indicators, road context, risk visualization, and safety analytics.**
 
-<a href="https://github.com/YOUR_USERNAME/DriveGuard-AI">
-<img src="https://img.shields.io/badge/PROJECT-DRIVEGUARD_AI-0891B2?style=for-the-badge&logo=probot&logoColor=white" alt="DriveGuard AI project"/>
-</a>
-<img src="https://img.shields.io/badge/AI-SAFETY_INTELLIGENCE-7C3AED?style=for-the-badge&logo=githubactions&logoColor=white" alt="AI safety intelligence"/>
-<img src="https://img.shields.io/badge/STATUS-IN_DEVELOPMENT-F59E0B?style=for-the-badge" alt="In development"/>
-
-<br/><br/>
-
-**An intelligent driver-safety dashboard built to explore the intersection of AI, computer vision, vehicle telemetry, and road-risk intelligence.**
-
-[Explore Features](#-core-systems) · [Tech Stack](#-technology-stack) · [Getting Started](#-quick-start) · [Roadmap](#-mission-roadmap)
-
-<br/>
+[Features](#-core-systems) · [Architecture](#-system-architecture) · [Quick Start](#-quick-start) · [Roadmap](#-mission-roadmap)
 
 </div>
 
@@ -32,288 +17,93 @@
 
 ## `01 / SYSTEM OVERVIEW`
 
-<div align="center">
+DriveGuard AI is a modern dashboard concept that brings driver-state indicators, road context, risk assessments, and safety analytics into one interface.
 
-<table>
-<tr>
-<td align="center" width="33%">
-
-### ◈ DRIVER AI
-
-Attention & Fatigue
-
-</td>
-<td align="center" width="33%">
-
-### ◈ ROAD INTEL
-
-Scene & Traffic Context
-
-</td>
-<td align="center" width="33%">
-
-### ◈ RISK ENGINE
-
-Risk Visualization
-
-</td>
-</tr>
-</table>
-
-</div>
-
-DriveGuard AI is a modern driver-safety interface designed to bring driver-state indicators, road context, risk assessments, and safety analytics into one unified experience.
-
-The goal: transform complex driving signals into understandable information that can help people investigate potential driving risks.
-
-> **SYSTEM NOTE:** The current repository contains a frontend dashboard with demo/fallback data and API integration points. Live AI inference, real-time camera processing, and vehicle sensor integration require a configured and tested backend.
-
----
+> **Project status:** This repository contains the frontend dashboard, demo/fallback data, and API integration points. Real-time camera processing, vehicle telemetry, and AI inference require a configured and tested backend.
 
 ## `02 / CORE SYSTEMS`
 
-<div align="center">
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### <img src="https://img.shields.io/badge/01-22D3EE?style=flat-square" alt="01"/> Driver Intelligence
-
-Understand the signals associated with driver state.
-
-- Attention and gaze indicators
-- Drowsiness and fatigue indicators
-- Distraction and phone-use indicators
-- Driver posture information
-
-</td>
-<td width="50%" valign="top">
-
-### <img src="https://img.shields.io/badge/02-A78BFA?style=flat-square" alt="02"/> Road Intelligence
-
-Visualize contextual information about driving conditions.
-
-- Traffic and surrounding vehicles
-- Lane-deviation indicators
-- Speed and braking information
-- Road-scene context
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### <img src="https://img.shields.io/badge/03-F472B6?style=flat-square" alt="03"/> Risk Intelligence
-
-Explore risk scores and their contributing factors.
-
-- Risk-level visualization
-- Safety events and alerts
-- Explainable risk indicators
-- Driver-risk analytics
-
-</td>
-<td width="50%" valign="top">
-
-### <img src="https://img.shields.io/badge/04-34D399?style=flat-square" alt="04"/> Analytics Command Center
-
-Turn dashboard data into readable insights.
-
-- Historical risk trends
-- Event timelines
-- Interactive charts
-- Demo driving scenarios
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
+| System | Capabilities represented in the interface |
+|---|---|
+| **Driver Intelligence** | Attention, gaze, fatigue, distraction, phone-use, and posture indicators |
+| **Road Intelligence** | Traffic context, lane-deviation indicators, speed, braking, and vehicle state |
+| **Risk Intelligence** | Risk visualization, contributing factors, alerts, and explainability |
+| **Analytics Center** | Historical trends, event timelines, charts, and demo scenarios |
 
 ## `03 / TECHNOLOGY STACK`
 
-<div align="center">
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Recharts](https://img.shields.io/badge/Recharts-Data_Visualization-22C55E?style=flat-square)
 
-<img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind,html,css&theme=dark" alt="React, TypeScript, Vite, Tailwind CSS, HTML, and CSS icons"/>
-
-<br/>
-
-<img src="https://img.shields.io/badge/React-UI_LAYER-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
-<img src="https://img.shields.io/badge/TypeScript-TYPE_SAFETY-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-<img src="https://img.shields.io/badge/Vite-DEV_ENGINE-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite"/>
-<img src="https://img.shields.io/badge/Tailwind-CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
-<img src="https://img.shields.io/badge/Recharts-DATA_VIZ-22C55E?style=flat-square" alt="Recharts"/>
-<img src="https://img.shields.io/badge/React_Query-API_STATE-FF4154?style=flat-square&logo=reactquery&logoColor=white" alt="TanStack React Query"/>
-
-</div>
-
-| Technology | Role |
+| Technology | Purpose |
 |---|---|
-| React + TypeScript | Component-based frontend and type safety |
+| React + TypeScript | Component-based UI and type safety |
 | Vite | Development server and production bundling |
-| Tailwind CSS | Interface styling |
-| Radix UI / shadcn/ui | Reusable UI components |
+| Tailwind CSS | Styling and responsive layouts |
+| Radix UI / shadcn/ui | Reusable interface components |
 | Recharts | Data visualization |
 | Framer Motion | UI animations |
 | TanStack React Query | API data fetching and caching |
-| Lucide React | Interface icons |
-
----
 
 ## `04 / SYSTEM ARCHITECTURE`
 
-```mermaid
-flowchart TD
-    A["Driver & Vehicle Data"] --> B["Data Ingestion"]
-    B --> C["Driver-State Analysis"]
-    B --> D["Road-Context Analysis"]
-    C --> E["Risk Assessment Engine"]
-    D --> E
-    E --> F["Explainable Risk Indicators"]
-    F --> G["DriveGuard AI Dashboard"]
-    G --> H["Alerts & Analytics"]
+<div align="center">
+<img src="assets/architecture.svg" width="100%" alt="DriveGuard AI conceptual system architecture diagram"/>
+</div>
 
-    classDef source fill:#082F49,stroke:#22D3EE,color:#E0F2FE
-    classDef engine fill:#312E81,stroke:#A78BFA,color:#F5F3FF
-    classDef output fill:#064E3B,stroke:#34D399,color:#D1FAE5
-
-    class A,B source
-    class C,D,E,F engine
-    class G,H output
-```
-
-<details>
-<summary><b>How the intended pipeline works</b></summary>
-
-1. Collect available driver-state, vehicle, and road-context data.
-2. Analyze the signals supported by the configured data sources.
-3. Combine relevant indicators into a risk assessment.
-4. Present contributing factors in an explainable format.
-5. Visualize alerts, metrics, and historical trends.
-
-The diagram describes the intended architecture. It does not imply that every processing stage is already implemented or connected in the current frontend.
-
-</details>
-
----
+The intended pipeline is to collect configured driver, road, and vehicle signals; analyze supported inputs; derive risk indicators; and visualize explanations and events. The diagram is conceptual and does not claim all processing stages are implemented.
 
 ## `05 / QUICK START`
 
 ### Prerequisites
-
 - Node.js LTS
 - npm
 - Git
 
-### Installation
+### Install and run
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/DriveGuard-AI.git
+git clone https://github.com/adarshmuchatte-lang/DriveGuard-AI.git
 cd DriveGuard-AI
 npm install
 npm run dev
 ```
 
-Open the local URL printed by Vite in your terminal.
-
-### Production build
+Open the local URL printed by Vite. To create a production build, run:
 
 ```bash
 npm run build
 ```
 
-### Project structure
-
-```text
-DriveGuard-AI/
-├── public/
-├── src/
-│   ├── components/
-│   │   └── ui/
-│   ├── hooks/
-│   │   └── use-driveguard.ts
-│   ├── lib/
-│   ├── pages/
-│   ├── App.tsx
-│   ├── index.css
-│   └── main.tsx
-├── index.html
-├── package.json
-├── vite.config.ts
-└── README.md
-```
-
-**Standalone setup:** The extracted frontend may require workspace-specific dependencies and catalog-based package versions to be replaced with standalone npm dependencies before installation and building will work.
-
----
+> **Standalone dependency note:** The supplied source may contain workspace-only packages and catalog-based package versions. Resolve these to standalone npm dependencies if `npm install` fails outside the original workspace.
 
 ## `06 / MISSION ROADMAP`
 
-- [x] Modern dashboard foundation
-- [x] Driver-safety interface and risk visualizations
+- [x] Dashboard frontend foundation
+- [x] Driver-safety UI and risk visualizations
 - [x] Demo/fallback data and API integration points
 - [ ] Standalone dependency configuration
 - [ ] Backend API integration and validation
 - [ ] Real-time camera pipeline
 - [ ] Computer-vision-based driver-state analysis
 - [ ] Live vehicle and sensor telemetry
-- [ ] Persistent safety-event history
-- [ ] Automated testing and CI/CD deployment
-
-<details>
-<summary><b>Future vision</b></summary>
-
-DriveGuard AI aims to evolve toward a modular safety-intelligence platform combining real-time observations, transparent risk indicators, configurable alerts, and historical analytics.
-
-Any real-world safety application will require validated models, reliable sensors, privacy safeguards, and rigorous testing before operational use.
-
-</details>
-
----
+- [ ] Persistent event history, tests, and CI/CD
 
 ## `07 / DEVELOPER PROFILE`
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&bg_color=050816&title_color=22D3EE&text_color=C4B5FD&icon_color=22D3EE&rank_icon=github" width="49%" alt="GitHub statistics"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&hide_border=true&bg_color=050816&title_color=22D3EE&text_color=C4B5FD" width="41%" alt="Most used GitHub languages"/>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&bg_color=050816&color=22D3EE&line=8B5CF6&point=FFFFFF&area=true&hide_border=true" width="100%" alt="GitHub contribution activity graph"/>
-
+<img src="assets/profile-card.svg" width="100%" alt="Developer profile and project focus card"/>
 </div>
-
----
 
 ## `08 / CONNECT`
 
 <div align="center">
 
-**Designed to explore a safer, smarter driving experience.**
+<a href="https://github.com/adarshmuchatte-lang"><img src="https://img.shields.io/badge/GitHub-Explore_my_work-181717?style=for-the-badge&logo=github" alt="GitHub profile"/></a>
 
-<a href="https://github.com/YOUR_USERNAME">
-<img src="https://img.shields.io/badge/GitHub-Explore_My_Work-181717?style=for-the-badge&logo=github" alt="GitHub profile"/>
-</a>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:7C3AED,50:164E63,100:050816" width="100%" alt="Decorative animated footer"/>
-
-<sub>DRIVEGUARD AI · DRIVER SAFETY · RISK INTELLIGENCE</sub>
-
-<sub>Built with curiosity, code, and a vision for safer roads.</sub>
+<img src="assets/footer.svg" width="100%" alt="Animated DriveGuard AI footer"/>
 
 </div>
 
----
+### Safety disclaimer
 
-### ⚠️ Disclaimer
-
-DriveGuard AI is a development and demonstration project, not a certified automotive safety system. Demo scores and sample events are not validated real-world predictions. Do not rely on this dashboard as the sole basis for driving decisions.
-
-</div>
+DriveGuard AI is a development and demonstration project, not a certified automotive safety system. Demo scores and sample events are not validated real-world predictions. Do not use this dashboard as the sole basis for driving decisions. Real-world deployment requires validated models, reliable sensors, privacy safeguards, and rigorous safety testing.

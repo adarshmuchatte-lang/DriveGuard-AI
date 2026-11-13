@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "DriveGuard AI"
+description = "A futuristic contextual driver risk intelligence dashboard for monitoring driver behavior, road context, vehicle signals, and explainable AI risk escalation in real time."
+version = "1.0.0"
+id = "artifacts/driveguard-ai"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20280
+
+[services.development]
+run = "pnpm --filter @workspace/driveguard-ai run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/driveguard-ai", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/driveguard-ai/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20280"
+BASE_PATH = "/"
